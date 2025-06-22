@@ -68,4 +68,33 @@ section h2 {
   margin-top: 0;
 }
 
-sect
+section ul {
+  padding-left: 20px;
+}
+
+/* Botones */
+button, .btn {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background-color: #005fa3;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
